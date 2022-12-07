@@ -1,0 +1,167 @@
+
+
+#title{
+    background-color:#9ecd11c2;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+h1{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:white;
+}
+
+h3{
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Playfair Display';
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+
+.download-button{
+    margin: 5% 10% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+    position:absolute;
+}
+
+@media (max-width:1025px){
+    #title{
+        text-align: center;
+    }
+    .download-button{
+        margin: 5% 10% 5% 10%;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+
+}
+
+#features {
+    padding: 7.5% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color:rgb(202, 75, 11);
+    margin-bottom: 0.5rem;
+}
+
+.icon:hover{
+    color: #9ecd11c2;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #9ecd11c2;
+}
+
+.carousel-item{
+    padding: 3% 15%;
+}
+
+.testimontial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.scroller{
+    margin-top: 0px;
+}
+
+#press{
+    padding: 0 15%;
+    text-align: center;
+    background-color: #9ecd11c2;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-header{
+    color:black;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: rgb(0, 81, 108);
+    color:white;
+    padding: 7.5% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+.btn-cta{
+    margin: 5% 10% 5% 10%;
+}
+
+#footer{
+    padding: 7.5% 15%;
+    text-align: center;
+}
+/* COGS3 studyBuddy specific styles go here. */

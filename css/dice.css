@@ -1,0 +1,56 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-image: url(../images/backgroundimage.jpg);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #9100f8;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #a9d1d4;
+}
+
+p {
+  color: #a9d1d4;
+}
+
+img {
+  width: 80%;
+  background-color: #0eb147;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  padding: 30px;
+  background-color: green;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
